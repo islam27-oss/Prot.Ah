@@ -171,6 +171,7 @@
         color: var(--text);
         margin-bottom: 10px;
         margin-left: 15px;
+        text-align: center;
       }
       .properties-heading h2 span {
         color: var(--primary);
@@ -178,7 +179,7 @@
       .properties-heading p {
         font-size: 14px;
         color: var(--gray);
-        line-height: 1.6;
+        text-align: center;
         margin-left: 15px;
 
       }
@@ -294,15 +295,17 @@
         padding: 10px;
       }
       .service-heading {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       .service-heading h3 {
         font-size: 22px;
         color: gray;
+        text-align: center;
       }
       .service-heading p {
         font-size: 13px;
         color: grey;
+        text-align: center;
       }
       .service-heading h3 span {
         color:var(--primary);
@@ -312,7 +315,7 @@
         padding: 10px;
         border-radius: 7px;
         margin-bottom: 12px;
-        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.20);
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.10);
       }
       .service-icon {
         width: 45px;
@@ -339,7 +342,6 @@
         font-size: 16px;
         margin-bottom: 5px;
         color: var(--primary);
-
       }
       .service-info p {
         font-size: 12px;
@@ -351,7 +353,49 @@
         color: var(--primary);
         vertical-align: middle;
       }
-      
+      .why{
+        margin-top: 15px;
+        padding: 0 10px;
+      }
+      .why .heading {
+        margin-bottom: 15px ;
+      }
+      .why .heading h3 {
+        text-align: center;
+        color: var(--gray);
+      }
+      .why .heading h3 span {
+        color: var(--primary);
+        font-size: 24px;
+      }
+      .why .heading p {
+        color: var(--gray);
+        text-align: center;
+        font-size: 13px;
+      }
+      .why-card {
+        background: var(--white);
+        text-align: center;
+        border-radius: 7px;
+        padding: 15px ;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.10);
+      }
+      .why-icon i {
+        padding: 10px;
+        background: rgba(1, 59, 82, 0.1);
+        color: var(--primary);
+        font-size: 22px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      .why h3 {
+        color: var(--primary);
+      }
+      .why p {
+        color: var(--gray);
+        font-size: 13px;
+      }
     </style>
   </head>
   <body>
@@ -513,18 +557,6 @@
         <i class="fa-solid fa-chevron-right service-arrow"></i>
       </div>
       
-      <!-- Sell -->
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="fa-solid fa-house-circle-check"></i>
-        </div>
-        <div class="service-info">
-          <h4>Sell Property</h4>
-          <p>Sell your property quickly at the right price.</p>
-        </div>
-        <i class="fa-solid fa-chevron-right service-arrow"></i>
-      </div>
-      
       <!-- Rent -->
       <div class="service-card">
         <div class="service-icon">
@@ -536,18 +568,6 @@
         </div>
         <i class="fa-solid fa-chevron-right service-arrow"></i>
       </div>
-      
-      <!-- Management -->
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="fa-solid fa-building-user"></i>
-        </div>
-        <div class="service-info">
-          <h4>Management Property</h4>
-          <p>Professional management to protect your investment.</p>
-        </div>
-        <i class="fa-solid fa-chevron-right service-arrow"></i>
-      </div> 
       
       <!-- Valuation -->
       <div class="service-card">
@@ -571,9 +591,55 @@
           <p>Get expert guidance for safe property transactions.</p>
         </div>
         <i class="fa-solid fa-chevron-right service-arrow"></i>
-      </div>      
-  
+      </div>    
     </section>
     
+    <section class="why">
+      <div class="heading">
+        <h3>Why Choose <span>Prot.Ah</span> ?</h3>
+        <p>We make your real estate journey simple, secure, and more rewarding</p>
+      </div>
+      
+      <div class="why-card">
+        <div class="why-icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <h3>Prime Location</h3>
+        <p>Discover properties in the most desirable locations.</p>
+      </div>
+      
+      <div class="why-card">
+        <div class="why-icon">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+        <h3>Best Deals</h3>
+        <p>Exclusive offers and competitve price for your perfect property.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <h3>Easy Process</h3>
+        <p>Enjoy a smooth and hassle-free property journey.</p>
+      </div>  
+      
+      <div class="why-card">
+        <div class="why-icon">
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <h3>Flexible Payment</h3>
+        <p>Choose flexible payment options that suit your budget.</p>
+      </div>      
+      
+      
+      <div class="why-card">
+        <div class="why-icon">
+          <i class="fa-solid fa-handshake"></i>
+        </div>
+        <h3>Expert Guidance</h3>
+        <p>Get professional advice at every step of your journey.</p>
+      </div>       
+    </section>
   </body>
 </html>
